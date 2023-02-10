@@ -35,9 +35,4 @@ public class App {
   public void setTamanhoEmMB(float tamanhoEmMB) {
     this.tamanhoEmMB = tamanhoEmMB;
   }
-
-  @Override
-  public String toString() {
-    return "App [titulo=" + titulo + ", fabricante=" + fabricante + ", tamanhoEmMB=" + tamanhoEmMB + "]";
-  }
 }
